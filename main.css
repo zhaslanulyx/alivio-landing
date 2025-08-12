@@ -1,3 +1,7 @@
 /* Core */
 @import url('./styles/core/variables.css');
 @import url('./styles/core/globals.css');
+@import url('./styles/core/card.css');
+
+/* Sections */
+@import url('./styles/sections/header.css');
