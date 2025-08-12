@@ -45,6 +45,50 @@
 				</div>
 			</div>
 		</header>
+		<div class="mobile-navigation" aria-label="mobile navigation">
+			<label
+				for="menu-toggler-id"
+				aria-label="open-close mobile navigation menu"
+			>
+				<svg class="mobile-navigation__burger" aria-label="burger icon">
+					<use href="assets/sprites.svg#burger-icon"></use>
+				</svg>
+			</label>
+
+			<input
+				type="checkbox"
+				name="toggler"
+				id="menu-toggler-id"
+				class="mobile-navigation__toggler"
+			/>
+
+			<nav class="mobile-navigation__menu" aria-label="mobile navigation menu">
+				<ul class="mobile-navigation__list" aria-label="mobile navigation list">
+					<li class="mobile-navigation__item">
+						<a href="#about-id" class="mobile-navigation__link">Why Alivio</a>
+					</li>
+					<li class="mobile-navigation__item">
+						<a href="#success-id" class="mobile-navigation__link">Solutions</a>
+					</li>
+					<li class="mobile-navigation__item">
+						<a href="#product-id" class="mobile-navigation__link">Community</a>
+					</li>
+					<li class="mobile-navigation__item">
+						<a href="#pricing-id" class="mobile-navigation__link">Pricing</a>
+					</li>
+				</ul>
+
+				<label
+					for="menu-toggler-id"
+					class="mobile-navigation__close"
+					aria-label="close mobile navigation menu"
+				>
+					<svg class="mobile-navigation__cross" aria-label="cross icon">
+						<use href="assets/sprites.svg#cross-icon"></use>
+					</svg>
+				</label>
+			</nav>
+		</div>
 		<main class="content">
 			<section class="hero" aria-label="hero section" id="hero-id">
 				<div class="container">
@@ -190,6 +234,30 @@
 					</div>
 				</div>
 			</section>
+			<footer class="pricing" aria-label="pricing section" id="pricing-id">
+				<div class="container">
+					<div class="pricing__content">
+						<h2 class="pricing__title">Alivio</h2>
+
+						<nav class="pricing__nav" aria-label="navigation">
+							<ul class="pricing__nav-list" aria-label="navigation list">
+								<li class="pricing__nav-item">
+									<a href="#about-id" class="pricing__nav-link">Why Alivio</a>
+								</li>
+								<li class="pricing__nav-item">
+									<a href="#success-id" class="pricing__nav-link">Solutions</a>
+								</li>
+								<li class="pricing__nav-item">
+									<a href="#product-id" class="pricing__nav-link">Community</a>
+								</li>
+								<li class="pricing__nav-item">
+									<a href="#pricing-id" class="pricing__nav-link">Pricing</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>
